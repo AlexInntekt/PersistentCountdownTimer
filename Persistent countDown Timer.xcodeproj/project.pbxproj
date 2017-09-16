@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2360E0B1F6D5AC700DB9BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E0A1F6D5AC700DB9BDE /* AppDelegate.swift */; };
+		B2360E0D1F6D5AC700DB9BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E0C1F6D5AC700DB9BDE /* ViewController.swift */; };
+		B2360E101F6D5AC700DB9BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2360E0E1F6D5AC700DB9BDE /* Main.storyboard */; };
+		B2360E131F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2360E111F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodeld */; };
+		B2360E151F6D5AC700DB9BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2360E141F6D5AC700DB9BDE /* Assets.xcassets */; };
+		B2360E181F6D5AC700DB9BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2360E161F6D5AC700DB9BDE /* LaunchScreen.storyboard */; };
+		B2360E231F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E221F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift */; };
+		B2360E2E1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E2D1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2360E1F1F6D5AC700DB9BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2360DFF1F6D5AC700DB9BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2360E061F6D5AC700DB9BDE;
+			remoteInfo = "Persistent countDown Timer";
+		};
+		B2360E2A1F6D5AC800DB9BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2360DFF1F6D5AC700DB9BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2360E061F6D5AC700DB9BDE;
+			remoteInfo = "Persistent countDown Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2360E071F6D5AC700DB9BDE /* Persistent countDown Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persistent countDown Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2360E0A1F6D5AC700DB9BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2360E0C1F6D5AC700DB9BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2360E0F1F6D5AC700DB9BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2360E121F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Persistent_countDown_Timer.xcdatamodel; sourceTree = "<group>"; };
+		B2360E141F6D5AC700DB9BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2360E171F6D5AC700DB9BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2360E191F6D5AC700DB9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2360E1E1F6D5AC700DB9BDE /* Persistent countDown TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistent countDown TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2360E221F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent_countDown_TimerTests.swift; sourceTree = "<group>"; };
+		B2360E241F6D5AC800DB9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2360E291F6D5AC800DB9BDE /* Persistent countDown TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistent countDown TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2360E2D1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent_countDown_TimerUITests.swift; sourceTree = "<group>"; };
+		B2360E2F1F6D5AC800DB9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2360E041F6D5AC700DB9BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2360E1B1F6D5AC700DB9BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2360E261F6D5AC800DB9BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2360DFE1F6D5AC700DB9BDE = {
+			isa = PBXGroup;
+			children = (
+				B2360E091F6D5AC700DB9BDE /* Persistent countDown Timer */,
+				B2360E211F6D5AC800DB9BDE /* Persistent countDown TimerTests */,
+				B2360E2C1F6D5AC800DB9BDE /* Persistent countDown TimerUITests */,
+				B2360E081F6D5AC700DB9BDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2360E081F6D5AC700DB9BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2360E071F6D5AC700DB9BDE /* Persistent countDown Timer.app */,
+				B2360E1E1F6D5AC700DB9BDE /* Persistent countDown TimerTests.xctest */,
+				B2360E291F6D5AC800DB9BDE /* Persistent countDown TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2360E091F6D5AC700DB9BDE /* Persistent countDown Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B2360E0A1F6D5AC700DB9BDE /* AppDelegate.swift */,
+				B2360E0C1F6D5AC700DB9BDE /* ViewController.swift */,
+				B2360E0E1F6D5AC700DB9BDE /* Main.storyboard */,
+				B2360E141F6D5AC700DB9BDE /* Assets.xcassets */,
+				B2360E161F6D5AC700DB9BDE /* LaunchScreen.storyboard */,
+				B2360E191F6D5AC700DB9BDE /* Info.plist */,
+				B2360E111F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodeld */,
+			);
+			path = "Persistent countDown Timer";
+			sourceTree = "<group>";
+		};
+		B2360E211F6D5AC800DB9BDE /* Persistent countDown TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2360E221F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift */,
+				B2360E241F6D5AC800DB9BDE /* Info.plist */,
+			);
+			path = "Persistent countDown TimerTests";
+			sourceTree = "<group>";
+		};
+		B2360E2C1F6D5AC800DB9BDE /* Persistent countDown TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2360E2D1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift */,
+				B2360E2F1F6D5AC800DB9BDE /* Info.plist */,
+			);
+			path = "Persistent countDown TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2360E061F6D5AC700DB9BDE /* Persistent countDown Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2360E321F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown Timer" */;
+			buildPhases = (
+				B2360E031F6D5AC700DB9BDE /* Sources */,
+				B2360E041F6D5AC700DB9BDE /* Frameworks */,
+				B2360E051F6D5AC700DB9BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persistent countDown Timer";
+			productName = "Persistent countDown Timer";
+			productReference = B2360E071F6D5AC700DB9BDE /* Persistent countDown Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2360E1D1F6D5AC700DB9BDE /* Persistent countDown TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2360E351F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown TimerTests" */;
+			buildPhases = (
+				B2360E1A1F6D5AC700DB9BDE /* Sources */,
+				B2360E1B1F6D5AC700DB9BDE /* Frameworks */,
+				B2360E1C1F6D5AC700DB9BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2360E201F6D5AC700DB9BDE /* PBXTargetDependency */,
+			);
+			name = "Persistent countDown TimerTests";
+			productName = "Persistent countDown TimerTests";
+			productReference = B2360E1E1F6D5AC700DB9BDE /* Persistent countDown TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2360E281F6D5AC800DB9BDE /* Persistent countDown TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2360E381F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown TimerUITests" */;
+			buildPhases = (
+				B2360E251F6D5AC800DB9BDE /* Sources */,
+				B2360E261F6D5AC800DB9BDE /* Frameworks */,
+				B2360E271F6D5AC800DB9BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2360E2B1F6D5AC800DB9BDE /* PBXTargetDependency */,
+			);
+			name = "Persistent countDown TimerUITests";
+			productName = "Persistent countDown TimerUITests";
+			productReference = B2360E291F6D5AC800DB9BDE /* Persistent countDown TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2360DFF1F6D5AC700DB9BDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Manolescu Mihai Alexandru";
+				TargetAttributes = {
+					B2360E061F6D5AC700DB9BDE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 479S3P29WQ;
+						ProvisioningStyle = Automatic;
+					};
+					B2360E1D1F6D5AC700DB9BDE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 479S3P29WQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2360E061F6D5AC700DB9BDE;
+					};
+					B2360E281F6D5AC800DB9BDE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 479S3P29WQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2360E061F6D5AC700DB9BDE;
+					};
+				};
+			};
+			buildConfigurationList = B2360E021F6D5AC700DB9BDE /* Build configuration list for PBXProject "Persistent countDown Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2360DFE1F6D5AC700DB9BDE;
+			productRefGroup = B2360E081F6D5AC700DB9BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2360E061F6D5AC700DB9BDE /* Persistent countDown Timer */,
+				B2360E1D1F6D5AC700DB9BDE /* Persistent countDown TimerTests */,
+				B2360E281F6D5AC800DB9BDE /* Persistent countDown TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2360E051F6D5AC700DB9BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2360E181F6D5AC700DB9BDE /* LaunchScreen.storyboard in Resources */,
+				B2360E151F6D5AC700DB9BDE /* Assets.xcassets in Resources */,
+				B2360E101F6D5AC700DB9BDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2360E1C1F6D5AC700DB9BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2360E271F6D5AC800DB9BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2360E031F6D5AC700DB9BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2360E0D1F6D5AC700DB9BDE /* ViewController.swift in Sources */,
+				B2360E0B1F6D5AC700DB9BDE /* AppDelegate.swift in Sources */,
+				B2360E131F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2360E1A1F6D5AC700DB9BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2360E231F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2360E251F6D5AC800DB9BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2360E2E1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2360E201F6D5AC700DB9BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2360E061F6D5AC700DB9BDE /* Persistent countDown Timer */;
+			targetProxy = B2360E1F1F6D5AC700DB9BDE /* PBXContainerItemProxy */;
+		};
+		B2360E2B1F6D5AC800DB9BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2360E061F6D5AC700DB9BDE /* Persistent countDown Timer */;
+			targetProxy = B2360E2A1F6D5AC800DB9BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2360E0E1F6D5AC700DB9BDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2360E0F1F6D5AC700DB9BDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2360E161F6D5AC700DB9BDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2360E171F6D5AC700DB9BDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2360E301F6D5AC800DB9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2360E311F6D5AC800DB9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2360E331F6D5AC800DB9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 479S3P29WQ;
+				INFOPLIST_FILE = "Persistent countDown Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AVP.Persistent-countDown-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2360E341F6D5AC800DB9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 479S3P29WQ;
+				INFOPLIST_FILE = "Persistent countDown Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AVP.Persistent-countDown-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B2360E361F6D5AC800DB9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 479S3P29WQ;
+				INFOPLIST_FILE = "Persistent countDown TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AVP.Persistent-countDown-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persistent countDown Timer.app/Persistent countDown Timer";
+			};
+			name = Debug;
+		};
+		B2360E371F6D5AC800DB9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 479S3P29WQ;
+				INFOPLIST_FILE = "Persistent countDown TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AVP.Persistent-countDown-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persistent countDown Timer.app/Persistent countDown Timer";
+			};
+			name = Release;
+		};
+		B2360E391F6D5AC800DB9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 479S3P29WQ;
+				INFOPLIST_FILE = "Persistent countDown TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AVP.Persistent-countDown-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Persistent countDown Timer";
+			};
+			name = Debug;
+		};
+		B2360E3A1F6D5AC800DB9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 479S3P29WQ;
+				INFOPLIST_FILE = "Persistent countDown TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AVP.Persistent-countDown-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Persistent countDown Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2360E021F6D5AC700DB9BDE /* Build configuration list for PBXProject "Persistent countDown Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2360E301F6D5AC800DB9BDE /* Debug */,
+				B2360E311F6D5AC800DB9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2360E321F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2360E331F6D5AC800DB9BDE /* Debug */,
+				B2360E341F6D5AC800DB9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2360E351F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2360E361F6D5AC800DB9BDE /* Debug */,
+				B2360E371F6D5AC800DB9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2360E381F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2360E391F6D5AC800DB9BDE /* Debug */,
+				B2360E3A1F6D5AC800DB9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2360E111F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2360E121F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodel */,
+			);
+			currentVersion = B2360E121F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodel */;
+			path = Persistent_countDown_Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2360DFF1F6D5AC700DB9BDE /* Project object */;
+}
