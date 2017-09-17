@@ -15,6 +15,7 @@
 		B2360E181F6D5AC700DB9BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2360E161F6D5AC700DB9BDE /* LaunchScreen.storyboard */; };
 		B2360E231F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E221F6D5AC800DB9BDE /* Persistent_countDown_TimerTests.swift */; };
 		B2360E2E1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E2D1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift */; };
+		B2360E3C1F6D835300DB9BDE /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360E3B1F6D835300DB9BDE /* DataAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B2360E291F6D5AC800DB9BDE /* Persistent countDown TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistent countDown TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2360E2D1F6D5AC800DB9BDE /* Persistent_countDown_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent_countDown_TimerUITests.swift; sourceTree = "<group>"; };
 		B2360E2F1F6D5AC800DB9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2360E3B1F6D835300DB9BDE /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataAccess.swift; path = ../DataAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				B2360E0A1F6D5AC700DB9BDE /* AppDelegate.swift */,
 				B2360E0C1F6D5AC700DB9BDE /* ViewController.swift */,
+				B2360E3B1F6D835300DB9BDE /* DataAccess.swift */,
 				B2360E0E1F6D5AC700DB9BDE /* Main.storyboard */,
 				B2360E141F6D5AC700DB9BDE /* Assets.xcassets */,
 				B2360E161F6D5AC700DB9BDE /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				B2360E0D1F6D5AC700DB9BDE /* ViewController.swift in Sources */,
 				B2360E0B1F6D5AC700DB9BDE /* AppDelegate.swift in Sources */,
 				B2360E131F6D5AC700DB9BDE /* Persistent_countDown_Timer.xcdatamodeld in Sources */,
+				B2360E3C1F6D835300DB9BDE /* DataAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				B2360E341F6D5AC800DB9BDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2360E351F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				B2360E371F6D5AC800DB9BDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2360E381F6D5AC800DB9BDE /* Build configuration list for PBXNativeTarget "Persistent countDown TimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				B2360E3A1F6D5AC800DB9BDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

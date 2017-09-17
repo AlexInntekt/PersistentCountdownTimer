@@ -10,9 +10,7 @@ import UIKit
 
 class ViewController: UIViewController
 {
-    var accessDate = NSDate()
-    var intCounter = Int()
-    var timer = Timer()
+
     
     @IBOutlet weak var timerDisplay: UILabel!
 
@@ -24,17 +22,8 @@ class ViewController: UIViewController
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCountdown), userInfo: nil, repeats: true)
     }
     
-    
-    
-    func getDifference() -> Int
-    {
-        var diff = Int()
-            diff = Int(accessDate.timeIntervalSinceNow)
-            diff *= (-1)
-        
-        return diff
-    }
 
+    
     func updateCountdown() {
         intCounter += 1
         
@@ -53,39 +42,6 @@ class ViewController: UIViewController
     }
 
     
-    func updateDate()
-    {
-        if UserDefaults.standard.value(forKey: "lastAccess") == nil
-        {  // in this case, the variable is created and initialized for the first time:
-            
-            resetDate()
-            accessDate = retrieveDate()
-        }
-            
-        else
-        {  //in this case, the variable already exists over there.
-            accessDate = retrieveDate()
-        }
-        
-        intCounter = getDifference()
-    }
-    
-    
-    
-    func resetDate()
-    {
-        UserDefaults.standard.set(NSDate(), forKey: "lastAccess")
-    }
-    
-    
-    func retrieveDate() -> NSDate
-    {
-        var lastAccess = NSDate()
-            lastAccess = UserDefaults.standard.object(forKey: "lastAccess") as? NSDate ?? NSDate.distantFuture as NSDate
-    
-        return lastAccess
-    }
- 
 }
 
 
